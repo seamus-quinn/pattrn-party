@@ -1,6 +1,5 @@
 const tabs = document.querySelectorAll('.tab');
 const tabContainer = document.querySelector('.tab-content')
-console.log(tabContainer)
 
 const tab_1 = `<div class="image-container"></div>
         <div class="text-container">

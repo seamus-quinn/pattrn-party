@@ -113,6 +113,21 @@ body {
   }
 }
 
+.view-code-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4%;
+  button {
+    width: 300px;
+    height: 60px;
+    background: #3F3244;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 100;
+  }
+}
+
 
 
 

@@ -88,4 +88,17 @@ body {
         margin: 5% 0 3% 0;
         line-height: 150%; }
 
+.view-code-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4%; }
+  .view-code-section button {
+    width: 300px;
+    height: 60px;
+    background: #3F3244;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 100; }
+
 /*# sourceMappingURL=styles.css.map */
