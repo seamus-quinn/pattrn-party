@@ -1,0 +1,25 @@
+{
+  "name": "pattrn-party",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w sass/ -o css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seamus-quinn/pattrn-party.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seamus-quinn/pattrn-party/issues"
+  },
+  "homepage": "https://github.com/seamus-quinn/pattrn-party#readme"
+}
