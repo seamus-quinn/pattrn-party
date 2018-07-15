@@ -101,4 +101,36 @@ body {
     font-size: 22px;
     font-weight: 100; }
 
+.flex-card-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4%; }
+
+.flex-cards {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr; }
+  .flex-cards .card {
+    height: 300px;
+    border: 1px solid #D1D2D3;
+    margin: 15px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr; }
+    .flex-cards .card .card-header {
+      grid-row: 1 /span 1;
+      font-size: 24px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      padding-left: 5%; }
+    .flex-cards .card .card-image {
+      grid-row: 2 /span 3;
+      border-top: 1px solid #D1D2D3;
+      background: #F2F2F2; }
+  .flex-cards .one {
+    grid-column: 1 /span 2; }
+  .flex-cards .seven {
+    grid-column: 2 /span 2; }
+
 /*# sourceMappingURL=styles.css.map */
