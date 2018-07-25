@@ -167,6 +167,36 @@ body {
   }
 }
 
+.header-bar-container {
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  .header-bar {
+    width: 80%;
+    background: #D1D2D3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 100;
+    .delete-button {
+      border: 1px solid #666666;
+      width: 80px;
+      height: 80px;
+      border-radius: 40px;
+    } 
+    input {
+      background: #F2F2F2;
+      font-size: 22px;
+      font-weight: 100;
+      width: 200px;
+      height: 25px;
+      padding: 2%;
+    }
+  }
+}
+
 
 
 
